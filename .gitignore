@@ -1,8 +1,10 @@
-.gradle/2.10/taskArtifacts/cache.properties
-.gradle/2.10/taskArtifacts/cache.properties.lock
-.gradle/2.10/taskArtifacts/fileHashes.bin
-.gradle/2.10/taskArtifacts/fileSnapshots.bin
-.gradle/2.10/taskArtifacts/outputFileStates.bin
-.gradle/2.10/taskArtifacts/taskArtifacts.bin
+*.iml
 .gradle
+/local.properties
 /.idea
+/docs/output
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.svn

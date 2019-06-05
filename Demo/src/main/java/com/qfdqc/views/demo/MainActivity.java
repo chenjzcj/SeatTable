@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.qfdqc.views.seattable.SeatTable;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
     public SeatTable seatTableView;
     @Override
@@ -16,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         seatTableView = (SeatTable) findViewById(R.id.seatView);
-        seatTableView.setScreenName("8号厅荧幕");//设置屏幕名称
-        seatTableView.setMaxSelected(3);//设置最多选中
+        seatTableView.setScreenName("DTS:X临境音巨幕 银幕");//设置屏幕名称
+        seatTableView.setMaxSelected(6);//设置最多选中
 
         seatTableView.setSeatChecker(new SeatTable.SeatChecker() {
 
